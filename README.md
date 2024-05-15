@@ -16,4 +16,6 @@ Dataset: The COVID-19 Radiography Database, which is a database of chest X-ray i
 
 ## Segmentation Result
 
+200 samples are used for training, 40 for validation, and 200 for testing. The training stops when mean_iou does not increase for 5 epoche (patience=5)
+
 - **Test Mean IoU:** 0.1362
