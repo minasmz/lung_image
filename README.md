@@ -6,6 +6,8 @@ Task: Design and train a deep learning classifier that takes an x-ray image as t
 
 ## Classification Result
 
+200 samples are used for training, 40 for validation, and 200 for testing. The training stops when F1-score does not increase for 8 epoche (patience=8)
+
 - **Test Accuracy:** 0.5350
 - **Test F1 Score (weighted):** 0.3729
 - **Test AUC (one-vs-rest):** 0.6667
